@@ -7,7 +7,7 @@ from google import genai
 app = Flask(__name__)
 CORS(app)
 
-with open("api.txt", "r") as f:
+with open("../api.txt", "r") as f:
     content = f.read()
     client = genai.Client(api_key=content)
 
