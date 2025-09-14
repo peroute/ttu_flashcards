@@ -7,7 +7,12 @@ from google import genai
 app = Flask(__name__)
 CORS(app)
 
-client = genai.Client(api_key="AIzaSyCjn1UwXa5LECoLWkNy0wMi2EJb1XNJPVw")
+with open("../api.txt", "r") as f:
+    content = f.read()
+    client = genai.Client(api_key=content)
+
+
+
 
 COURSES_FILE = "courses-info.json"
 FLASHCARDS_DIR = "flashcards_data"
