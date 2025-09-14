@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import axios from 'axios'
 import './App.css'
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
   const [currentMessage, setCurrentMessage] = useState('')
 
   const courses = [
-    {name: 'Introduction to python programming', code: 'ENGR 1330' },
-    {name: 'Introduction to Texas government', code: 'POLS 2306' }
+    {name: 'Introduction to python programming', code: 'ENGR1330' },
+    {name: 'Introduction to Texas government', code: 'POLS2306' }
   ]
 
   const handleCourseSelect = (course) => {
@@ -20,17 +21,44 @@ function App() {
     }])
   }
 
-  const handleSendMessage = () => {
-    if (currentMessage.trim()) {
-      const newMessage = {
-        id: chatMessages.length + 1,
-        text: currentMessage,
-        isBot: false
-      }
-      setChatMessages([...chatMessages, newMessage])
-      setCurrentMessage('')
-    }
+const handleSendMessage = async () => {
+  if (!currentMessage.trim() || !selectedCourse) return
+
+  const newMessage = {
+    id: chatMessages.length + 1,
+    text: currentMessage,
+    isBot: false
   }
+  setChatMessages([...chatMessages, newMessage])
+  setCurrentMessage('')
+
+  try {
+    const res = await axios.post(
+      `http://127.0.0.1:5000/course/${encodeURIComponent(selectedCourse.code)}/chat`,
+      { message: currentMessage }
+    )
+
+    // append bot response
+    setChatMessages(prev => [
+      ...prev,
+      {
+        id: prev.length + 1,
+        text: res.data.chat_response || "No response",
+        isBot: true
+      }
+    ])
+  } catch (err) {
+    console.error("Error getting AI response:", err)
+    setChatMessages(prev => [
+      ...prev,
+      {
+        id: prev.length + 1,
+        text: "⚠️ Error contacting AI backend",
+        isBot: true
+      }
+    ])
+  }
+}
 
   const handleCreateFlashcards = () => {
     alert('Flashcards created! (This would integrate with your AI backend)')
