@@ -7,9 +7,8 @@ function App() {
   const [currentMessage, setCurrentMessage] = useState('')
 
   const courses = [
-    { id: 1, name: 'Computer Science', code: 'CS' },
-    { id: 2, name: 'Mathematics', code: 'MATH' },
-    { id: 3, name: 'Efsfs', code: 'ENG' }
+    {name: 'Introduction to python programming', code: 'ENGR 1330' },
+    {name: 'Introduction to Texas government', code: 'POLS 2306' }
   ]
 
   const handleCourseSelect = (course) => {
