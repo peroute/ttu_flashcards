@@ -265,3 +265,48 @@ body {
     padding: 1rem;
   }
 }
+.flashcards-container {
+  margin-top: 20px;
+}
+
+.flashcard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.flashcard {
+  width: 250px;
+  min-height: 150px; /* keep a minimum height */
+  height: auto;       /* allow auto-expansion */
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flashcard .front,
+.flashcard .back {
+  min-height: 150px;
+  height: auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+.flashcard .back {
+  background-color: #f0f0f0;
+  transform: rotateY(180deg);
+}
+
+.flashcard.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flashcard.flipped .back {
+  transform: rotateY(0deg);
+}
+
+.flashcard:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+

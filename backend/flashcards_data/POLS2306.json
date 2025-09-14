@@ -1,0 +1,50 @@
+[
+  {
+    "front": "Key concept",
+    "back": "```json\n{\n  \"chat_response\": \"To help you understand what a 'state' is in the context of POLS2306, I've created some flashcards covering various aspects. Remember that the term 'state' has multiple meanings; these flashcards will focus on its meaning within political science and particularly as it relates to the US federal system.\",\n  \"flashcards\": [\n    {\n      \"front\": \"What is a State (in the political science sense)?\",\n      \"back\": \"A state is a political entity with a defined territory, a permanent population, a government, and the capacity to enter into relations with other states.  It possesses sovereignty\u2014the supreme authority within its territory.\"\n    },\n    {\n      \"front\": \"How does the concept of a 'state' relate to the United States?\",\n      \"back\": \"The United States is a federal republic composed of 50 individual states.  Each state has its own government, constitution, and laws, but its powers are limited by the US Constitution and federal law.  The relationship between the states and the federal government is a key aspect of American federalism.\"\n    },\n    {\n      \"front\": \"What are the key characteristics of a state?\",\n      \"back\": \"1. **Territory:** Defined geographical boundaries.\\n2. **Population:** A permanent resident population.\\n3. **Government:** A system of political organization with authority to make and enforce laws.\\n4. **Sovereignty:** Supreme authority within its territory; independence from external control.\"\n    },\n    {\n      \"front\": \"How is a 'state' different from a 'nation'?\",\n      \"back\": \"A nation is a cultural or ethnic group sharing common identity, language, or history. A state is a political entity. A nation-state is when a nation coincides with the boundaries of a state (e.g., Japan), but many states are multi-national (e.g., the US).\"\n    },\n    {\n      \"front\": \"What is the relationship between the states and the federal government in the US?\",\n      \"back\": \"The US operates under a federal system, dividing powers between a national government and the individual state governments.  This division of power is defined by the US Constitution, with some powers belonging exclusively to the federal government, some to the states, and some shared (concurrent powers).  This balance of power is a constant source of tension and negotiation.\"\n    },\n    {\n      \"front\": \"What are some examples of powers reserved for state governments?\",\n      \"back\": \"Examples include establishing local governments, regulating intrastate commerce, conducting elections, establishing public schools, and defining criminal laws within state borders.\"\n    },\n    {\n      \"front\": \"What are some examples of powers reserved for the federal government?\",\n      \"back\": \"Examples include regulating interstate commerce, declaring war, coining money, conducting foreign policy, and establishing a national postal service.\"\n    }\n  ]\n}\n```\n"
+  },
+  {
+    "front": "Key concept",
+    "back": "```json\n{\n  \"chat_response\": \"Here's a flashcard to help you understand the concept of a 'state' in the context of POLS2306.\",\n  \"flashcards\": [\n    {\n      \"front\": \"What is a State (in Political Science)?\",\n      \"back\": \"In political science, a state refers to a political entity with a defined territory, a permanent population, a government, and the capacity to enter into relations with other states.  It possesses sovereignty \u2013 the supreme authority within its borders \u2013 and is independent of external control.  This differs from the colloquial use of 'state' which might refer to a member of a federal union like Texas in the US.\"\n    }\n  ]\n}\n```\n"
+  },
+  {
+    "front": "Key concept",
+    "back": "```json\n{\n  \"front\": \"What is a state, in the context of political science?\",\n  \"back\": \"A state is a political entity with a defined territory, a permanent population, a government, and sovereignty (the ability to govern itself without external interference).  It's a key concept in understanding political organization and the relationship between different levels of government (like the relationship between a state like Texas and the federal government).\"\n}\n```\n"
+  },
+  {
+    "front": "Key concept",
+    "back": "```json\n{\n  \"front\": \"What is a state, in the context of political science?\",\n  \"back\": \"In political science, a state is a political entity with a defined territory, a permanent population, a government, and the capacity to enter into relations with other states.  It possesses sovereignty, meaning it has supreme authority within its borders and is not subject to the control of any other entity.\"\n}\n```\n"
+  },
+  {
+    "front": "Key concept",
+    "back": "```json\n{\n  \"front\": \"What is a state, in the context of political science?\",\n  \"back\": \"A state is a political entity with a defined territory, a permanent population, a government, and the capacity to enter into relations with other states.  It possesses sovereignty, meaning it has supreme authority within its territory and is not subject to external control.\"\n}\n```\n"
+  },
+  {
+    "front": "Key concept",
+    "back": "```json\n{\n  \"front\": \"What is the role of a President in the context of the U.S. Federal Government, and how does this differ from the Texas executive branch?\",\n  \"back\": \"The U.S. President is the Head of State and Head of Government, leading the executive branch with significant power in both domestic and foreign policy.  In contrast, the Texas executive branch is more fragmented, with power distributed amongst several elected officials (Governor, Lt. Governor, Attorney General, etc.) who may not always be from the same political party.  While the U.S. President has significant appointment power, the Texas Governor's powers are comparatively more limited, subject to greater legislative oversight and checks from other executive branch officials. The U.S. President also has veto power over federal legislation, a power that the Texas Governor also possesses but with important differences in the override process.\"\n}\n```\n"
+  },
+  {
+    "front": "Key concept",
+    "back": "```json\n{\n  \"front\": \"What is a country?\",\n  \"back\": \"A country, also known as a nation or state, is a self-governing political entity.  It typically possesses a defined territory, a permanent population, a government, and sovereignty (the power to govern itself without external interference).  Countries can vary significantly in size, population, and political systems.\"\n}\n```\n"
+  },
+  {
+    "front": "What is a state, in the context of political science?",
+    "back": "A state is a political entity with a defined territory, a permanent population, a government capable of exercising effective control over its territory and population, and the capacity to enter into relations with other states.  It possesses sovereignty \u2013 the supreme authority within its territory."
+  },
+  {
+    "front": "What is the head of the executive branch of the U.S. federal government called?",
+    "back": "President"
+  },
+  {
+    "front": "Define 'State' in the context of political science.",
+    "back": "A state, in political science, refers to a political entity with a defined territory, a permanent population, a government, and sovereignty (the ability to govern itself without external interference).  It's a key concept for understanding the structure of the international system and the relationships between different levels of government (e.g., the relationship between the federal government and the state of Texas)."
+  },
+  {
+    "front": "What is the role of the President in the US Federal Government, and why is this role distinct from the Texas Governor?",
+    "back": "The US President is the head of state and head of government of the United States, leading the executive branch.  Key differences from the Texas Governor include significantly greater power in foreign policy (Commander-in-Chief of the Armed Forces), the ability to veto legislation at the federal level, and a much larger scope of influence due to the federal government's jurisdiction over many aspects of national life.  The Texas Governor, while also head of the executive branch in Texas, operates within a more limited sphere of influence, subject to the US Constitution and federal law.  They lack the President's power in foreign affairs and have less direct control over national policy."
+  },
+  {
+    "front": "What is a state, in the context of political science?",
+    "back": "A state is a political entity with a defined territory, a permanent population, a government, and sovereignty (the ability to govern itself without external interference).  In the U.S. system, a state like Texas is a member of a federal system, meaning it shares power with the national government."
+  }
+]
