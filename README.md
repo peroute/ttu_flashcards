@@ -2,15 +2,13 @@
 # TTU Flashcard Maker
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/de690473-34e0-40be-94de-f300cde85c71" alt="Home Screen" width="300" />
-  <img src="https://github.com/user-attachments/assets/d2209194-0fd2-4388-b4e9-652a8b3baea2" alt="Question Screen" width="300" />
-  <img src="https://github.com/user-attachments/assets/7ad0250c-a044-4853-a3d0-ddaa76800f04" alt="Answer Screen" width="300" />
+  <img src="https://github.com/user-attachments/assets/de690473-34e0-40be-94de-f300cde85c71" alt="Home Screen" width="450" />
+  <img src="https://github.com/user-attachments/assets/d2209194-0fd2-4388-b4e9-652a8b3baea2" alt="Question Screen" width="450" />
+  <img src="https://github.com/user-attachments/assets/7ad0250c-a044-4853-a3d0-ddaa76800f04" alt="Answer Screen" width="450" />
 </p>
 
-
 ## 📌 Inspiration  
-Creating flashcards has always been one of the best ways to retain![Uploading answer.png…]()
- difficult concepts, but it’s also very time-consuming. This project was built during a hackathon to make studying easier and faster by automating flashcard creation with AI.  
+Creating flashcards has always been one of the best ways to retain difficult concepts, but it’s also very time-consuming. This project was built during a hackathon to make studying easier and faster by automating flashcard creation with AI.  
 
 ## 🚀 What It Does  
 - Users select a course and ask a question or provide a concept.  
