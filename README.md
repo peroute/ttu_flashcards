@@ -1,9 +1,11 @@
 
 # TTU Flashcard Maker
 
-<img width="1264" height="974" alt="question" src="https://github.com/user-attachments/assets/d2209194-0fd2-4388-b4e9-652a8b3baea2" />
-<img width="1277" height="977" alt="home ttu flashcard" src="https://github.com/user-attachments/assets/de690473-34e0-40be-94de-f300cde85c71" />
-<img width="1264" height="974" alt="answer" src="https://github.com/user-attachments/assets/7ad0250c-a044-4853-a3d0-ddaa76800f04" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de690473-34e0-40be-94de-f300cde85c71" alt="Home Screen" width="300" />
+  <img src="https://github.com/user-attachments/assets/d2209194-0fd2-4388-b4e9-652a8b3baea2" alt="Question Screen" width="300" />
+  <img src="https://github.com/user-attachments/assets/7ad0250c-a044-4853-a3d0-ddaa76800f04" alt="Answer Screen" width="300" />
+</p>
 
 
 ## 📌 Inspiration  
